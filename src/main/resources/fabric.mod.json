@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "hitcue",
+  "version": "${version}",
+  "name": "HitCue",
+  "description": "Cosmetic crosshair addon: brackets around the crosshair turn green when your attack is fully charged and you're aiming at a living entity, with a charge bar while the cooldown refills. Uses only information the vanilla attack indicator already shows.",
+  "authors": ["shubhraorcl"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.hitcue.HitCueClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
